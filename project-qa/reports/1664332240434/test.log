@@ -1,0 +1,25 @@
+[2022-09-28 02:30:40] [1] [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+selenium_url=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.browserName=chrome
+================================================
+
+[2022-09-28 02:30:40] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-09-28 02:30:40] [1] [INFO] Reflections took 411 ms to scan 11 urls, producing 2605 keys and 12714 values 
+[2022-09-28 02:30:40] [1] [INFO] [TestNG] Running:
+  /Users/carloscristaldo/Library/Caches/JetBrains/IntelliJIdea2022.1/temp-testng-customsuite.xml
+
+[2022-09-28 02:30:40] [1] [INFO] Set thread-count=1
+[2022-09-28 02:30:40] [1] [INFO] Set data-provider-thread-count=1
+[2022-09-28 02:30:40] [1] [INFO] CARINA_CORE_VERSION: 7.4.26
+[2022-09-28 02:30:41] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-09-28 02:30:41] [1] [INFO] RESULT #1: TEST [project0 - testModelSpecs] FAIL [log=file:///Users/carloscristaldo/Documents/Repos/Zebrunner/project0/project-qa/./reports/1664332240434/a7bfc2fe-7b31-457c-8204-ed8f5045a3bb/test.log]

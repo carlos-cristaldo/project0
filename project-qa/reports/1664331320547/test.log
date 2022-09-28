@@ -1,0 +1,15 @@
+[2022-09-28 02:15:20] [1] [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+selenium_url=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.browserName=chrome
+================================================
+

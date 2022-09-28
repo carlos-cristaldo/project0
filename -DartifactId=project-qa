@@ -1,0 +1,60 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> maven-archetype-plugin:3.2.1:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO] 
+[INFO] <<< maven-archetype-plugin:3.2.1:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-archetype-plugin:3.2.1:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [com.qaprosoft:carina-archetype:7.4.25] found in catalog remote
+Downloading from central: https://repo.maven.apache.org/maven2/com/qaprosoft/carina-archetype/maven-metadata.xml
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/qaprosoft/carina-archetype/maven-metadata.xml (2.0 kB at 4.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/qaprosoft/carina-archetype/7.4.26/carina-archetype-7.4.26.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/qaprosoft/carina-archetype/7.4.26/carina-archetype-7.4.26.pom (2.6 kB at 6.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/qaprosoft/carina-archetype/7.4.26/carina-archetype-7.4.26.jar
+Progress (1): 4.1/98 kBProgress (1): 8.2/98 kBProgress (1): 12/98 kB Progress (1): 16/98 kBProgress (1): 20/98 kBProgress (1): 24/98 kBProgress (1): 28/98 kBProgress (1): 32/98 kBProgress (1): 36/98 kBProgress (1): 40/98 kBProgress (1): 45/98 kBProgress (1): 49/98 kBProgress (1): 53/98 kBProgress (1): 57/98 kBProgress (1): 61/98 kBProgress (1): 65/98 kBProgress (1): 69/98 kBProgress (1): 73/98 kBProgress (1): 77/98 kBProgress (1): 81/98 kBProgress (1): 85/98 kBProgress (1): 90/98 kBProgress (1): 94/98 kBProgress (1): 98/98 kBProgress (1): 98 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/qaprosoft/carina-archetype/7.4.26/carina-archetype-7.4.26.jar (98 kB at 89 kB/s)
+[INFO] Using property: selenium_url = http://localhost:4444/wd/hub
+[INFO] Using property: name = Test Automation Project
+[INFO] Using property: url = http:ccristaldo.com
+[INFO] Using property: demo = true
+[INFO] Using property: groupId = com.ccristaldo
+Define value for property 'artifactId': [INFO] Using property: version = 1.0
+[INFO] Using property: package = com.ccristaldo
+Confirm properties configuration:
+selenium_url: http://localhost:4444/wd/hub
+name: Test Automation Project
+url: http:ccristaldo.com
+demo: true
+groupId: com.ccristaldo
+artifactId: project-qa
+version: 1.0
+package: com.ccristaldo
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: carina-archetype:RELEASE
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: com.ccristaldo
+[INFO] Parameter: artifactId, Value: project-qa
+[INFO] Parameter: version, Value: 1.0
+[INFO] Parameter: package, Value: com.ccristaldo
+[INFO] Parameter: packageInPathFormat, Value: com/ccristaldo
+[INFO] Parameter: package, Value: com.ccristaldo
+[INFO] Parameter: groupId, Value: com.ccristaldo
+[INFO] Parameter: selenium_url, Value: http://localhost:4444/wd/hub
+[INFO] Parameter: name, Value: Test Automation Project
+[INFO] Parameter: artifactId, Value: project-qa
+[INFO] Parameter: demo, Value: true
+[INFO] Parameter: version, Value: 1.0
+[INFO] Parameter: url, Value: http:ccristaldo.com
+[INFO] Executing META-INF/archetype-post-generate.groovy post-generation script
+[INFO] Project created from Archetype in dir: /Users/carloscristaldo/Documents/Repos/Zebrunner/project0/project-qa
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:44 min
+[INFO] Finished at: 2022-09-27T22:52:10-03:00
+[INFO] ------------------------------------------------------------------------
